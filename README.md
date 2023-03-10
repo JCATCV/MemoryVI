@@ -8,7 +8,9 @@ Existing video inpainting methods mainly recover the missing content by retrievi
 ## Overview
 ![overall_structure](./figs/overview.png)
 
-### :rocket: Highlights:
-- **SOTA performance**: Our memory-based solution achieves significant improvements on all quantitative metrics in comparison with SOTA methods.
-- **Highly effiency**: Our method processes 432 × 240 videos at 0.12 seconds per frame on a Titan XP GPU, which is nearly 15× faster than previous flow-based methods. Besides, our method has the lowest FLOPs among all compared SOTA
-methods.
+### ⚡ Highlights:
+Our propose model has the following *merit* that others have not:
+- **Memorize the past**: Our method incorporates a dynamic space-time memory in video inpainting, enabling the model to dynamically memorize its past prediction to make the current generation become more temporally-consistent and find-grained. 
+- **Distinguish the Reality**: Our method exploits the mask prior for video inpainting to mark each token while calculating correlation in self-attention, which allows the model to distinguish different tokens according to their sources so as to guide the model to produce more faithful results.
+
+**With these two highlights, our model achieves SOTA performance on DAVIS and Youtube-VOS datasets under various mask settings !**
