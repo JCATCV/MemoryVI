@@ -3,14 +3,14 @@ Existing video inpainting methods mainly recover the missing content by retrievi
 
 ## Demo
 
-![teaser](./figs/teaser.gif)
+![teaser](./figs/teaser1.gif)
 
 ## Overview
 ![overall_structure](./figs/overview.png)
 
 ### ⚡ Highlights:
 Our propose model has the following *merit* that others have not:
-- **Memorize the past**: Our method incorporates a dynamic space-time memory in video inpainting, enabling the model to dynamically memorize its past prediction to make the current generation become more temporally-consistent and find-grained. 
+- **Memorize the Past**: Our method incorporates a dynamic space-time memory in video inpainting, enabling the model to dynamically memorize its past prediction to make the current generation become more temporally-consistent and find-grained. 
 - **Distinguish the Reality**: Our method exploits the mask prior for video inpainting to mark each token while calculating correlation in self-attention, which allows the model to distinguish different tokens according to their sources so as to guide the model to produce more faithful results.
 
 **With these two highlights, our model achieves SOTA performance on DAVIS and Youtube-VOS datasets under various mask settings !**
