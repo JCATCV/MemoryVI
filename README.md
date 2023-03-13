@@ -29,7 +29,7 @@ Our propose model has the following *merits* that others have not:
 **With these two highlights, our model achieves SOTA performance on DAVIS and Youtube-VOS datasets under various mask settings !**
 
 ## Reference
-We acknowledge the followings works for their open source:<br/
+We acknowledge the followings works for their open source:<br/>
 [1] Free-form Video Inpainting with 3D Gated Convolution and Temporal PatchGAN, Chang et al., In ICCV 2019.<br/>
 [2] Towards End-to-End Flow-Guided Video Inpainting, Li et al., In CVPR 2022.<br/>
 [3] Fusing Fine-grained Information in Transformers for Video Inpainting, Liu et al., In ICCV 2021.<br/>
