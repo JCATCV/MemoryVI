@@ -3,7 +3,7 @@ Existing video inpainting methods mainly recover the missing content by retrievi
 ## Demo
 
 <div align="center">
-   <img src="./demo/jump.gif"  height=320><img src="./demo/watermark.gif" height=320>
+   <img src="./demo/jump.gif"  height=280><img src="./demo/watermark.gif" height=280>
 </div>
 
 Our full demo can be found by clicking [Full demo (Youtube)](https://youtu.be/ztguzv1QSf8).
